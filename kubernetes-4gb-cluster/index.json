@@ -7,8 +7,12 @@
     },
     "steps": [
       {
-        "title": "List all pods",
+        "title": "Install Dynatrace Operator",
         "text": "step1.md"
+      },
+      {
+        "title": "Configure Operator",
+        "": ""
       }
     ],
     "finish": {
