@@ -1,6 +1,6 @@
 {
   "title": "Kubernetes 1node",
-  "description": "Use a simple one node Kubernetes cluster and let user list all pods",
+  "description": "Use this simple one node Kubernetes-Cluster to test out Dynatrace.",
   "details": {
     "intro": {
       "text": "intro.md"
@@ -18,6 +18,12 @@
     "finish": {
       "text": "finish.md"
     }
+  },
+  "assets": {
+    "host01": [
+      {"file": "dynakube_without_secret.yaml", "target": "~/", "chmod": "+w"},
+      {"file": "istio-demoapp.yaml", "target": "~/", "chmod": "+w"}
+    ]
   },
   "backend": {
     "imageid": "kubernetes-kubeadm-1node-4GB-rapid"
